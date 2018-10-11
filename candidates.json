@@ -28,7 +28,9 @@
                     "name": "Vincent Crisanti",
                     "email": "votecrisanti@gmail.com",
                     "tel": "647-646-8683",
-                    "website": "votecrisanti.com"                },
+                    "website": "votecrisanti.com",
+                    "position": "Voted against safety training"
+                },
                 {
                     "name": "Michael Ford",
                     "email": "contact@electmichaelford.com",
@@ -132,7 +134,7 @@
                 {
                     "name": "Valerie Grdisa",
                     "email": "vote4valerie.grdisa@rogers.com",
-                    "website": "valeriegrdisa.com/"
+                    "website": "valeriegrdisa.com"
                 },
                 {
                     "name": "Taras Kulish",
@@ -319,7 +321,7 @@
                     "name": "Peter Tijiri",
                     "email": "vote4petertijiri@gmail.com",
                     "tel": "647-344-2939",
-                    "website": "vote4petertijiri.com/"
+                    "website": "vote4petertijiri.com"
                 },
                 {
                     "name": "Dyanoosh Youssefi",
@@ -344,19 +346,19 @@
                     "name": "Mark Balack",
                     "email": "markbalack@gmail.com",
                     "tel": "416-885-0662",
-                    "website": "www.markbalack.com"
+                    "website": "markbalack.com"
                 },
                 {
                     "name": "Nahum Mann",
                     "email": "vote@nahum.ca",
                     "tel": "647-780-5835",
-                    "website": "www.nahum.ca"
+                    "website": "nahum.ca"
                 },
                 {
                     "name": "Troy Young",
                     "email": "troyjyoungward9@gmail.com",
                     "tel": "647-745-2768",
-                    "website": "www.youtube.com/watch?v=oF2qzwSpar0&t=5s"
+                    "website": "youtube.com/watch?v=oF2qzwSpar0&t=5s"
                 }
             ]
         },
@@ -367,21 +369,24 @@
                 {
                     "name": "Michael Barcelos",
                     "email": "Michaelbarcelos2@icloud.com",
-                    "website": "www.michaelbarcelos.com"
+                    "website": "michaelbarcelos.com"
                 },
                 {
                     "name": "Joe Cressy",
-                    "website": "www.joecressy.ca"
+                    "email": "info@joecressy.ca",
+                    "tel": "647-695-3141",
+                    "website": "joecressy.ca",
+                    "position": "Voted for safety training"
                 },
                 {
                     "name": "April Engelberg",
                     "email": "april.engelberg@voteforapril.com",
-                    "website": "www.voteforapril.com"
+                    "website": "voteforapril.com"
                 },
                 {
                     "name": "Dean Maher",
                     "email": "dean@votefordean.ca",
-                    "website": "www.votefordean.ca"
+                    "website": "votefordean.ca"
                 },
                 {
                     "name": "Andrew Massey",
@@ -391,28 +396,28 @@
                     "name": "Rick Myers",
                     "email": "rick@rickmyers.ca",
                     "tel": "416-707-9523",
-                    "website": "www.rickmyers.ca"
+                    "website": "rickmyers.ca"
                 },
                 {
                     "name": "Karlene Nation",
                     "email": "karlene@karlenenation.com",
-                    "website": "www.karlenenation.com"
+                    "website": "karlenenation.com"
                 },
                 {
                     "name": "John Nguyen",
                     "email": "john@nguyenjohn.ca",
-                    "website": "www.nguyenjohn.ca"
+                    "website": "nguyenjohn.ca"
                 },
                 {
                     "name": "Kevin Vuong",
                     "email": "info@kevinvuong.com",
                     "tel": "416-824-2050",
-                    "website": "www.kevinvuong.ca"
+                    "website": "kevinvuong.ca"
                 },
                 {
                     "name": "Edris Zalmai",
                     "email": "EdrisZalmai2018@gmail.com",
-                    "website": "www.edriszalmai.ca"
+                    "website": "edriszalmai.ca"
                 },
                 {
                     "name": "Andrei Zodian",
@@ -424,7 +429,849 @@
                     "name": "Sabrina Zuniga",
                     "email": "sabrina@sabrinazuniga.ca",
                     "tel": "647-812-2452",
-                    "website": "www.sabrinazuniga.ca"
+                    "website": "sabrinazuniga.ca"
+                }
+            ]
+        },
+        {
+            "name": "University-Rosedale",
+            "ward_number": 11,
+            "candidates": [
+                {
+                    "name": "Marc Cormier",
+                    "email": "marcalbertcormier@gmail.com",
+                    "website": "marcalbertcormier.ca"
+                },
+                {
+                    "name": "Mike Layton",
+                    "email": "info@mikelayton.ca",
+                    "tel": "437-238-4272",
+                    "website": "mikelayton.ca",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Joyce Rowlands",
+                    "email": "joyce4ward11@gmail.com",
+                    "tel": "647-227-3045",
+                    "website": "joycerowlands.ca"
+                },
+                {
+                    "name": "Nicki Ward",
+                    "email": "admin@nickiward.ca",
+                    "tel": "(647) 725-3025",
+                    "website": "NickiWard.ca"
+                }
+            ]
+        },
+        {
+            "name": "Toronto-St. Paul's",
+            "ward_number": 12,
+            "candidates": [
+                {
+                    "name": "Artur Langu",
+                    "email": "arturlangu12@gmail.com",
+                    "website": "langu.ca"
+                },
+                {
+                    "name": "Ian Lipton",
+                    "email": "ian@ianlipton.ca",
+                    "tel": "416-703-3000",
+                    "website": "ianlipton.ca"
+                },
+                {
+                    "name": "Josh Matlow",
+                    "email": "2018@joshmatlow.com",
+                    "website": "joshmatlow.com",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "Joe Mihevc",
+                    "email": "info@joemihevc.ca",
+                    "tel": "647-812-2821",
+                    "website": "joemihevc.ca",
+                    "position": "Voted for safety training"
+                }
+            ]
+        },
+        {
+            "name": "Toronto Centre",
+            "ward_number": 13,
+            "candidates": [
+                {
+                    "name": "Darren Abramson",
+                    "email": "voteabramson@gmail.com"
+                },
+                {
+                    "name": "Khuram Aftab",
+                    "email": "info@aftabkhuram.com",
+                    "tel": "647-906-7267",
+                    "website": "aftabkhuram.com"
+                },
+                {
+                    "name": "Jon Callegher",
+                    "email": "contact@joncallegher.com",
+                    "tel": "647-563-3095",
+                    "website": "joncallegher.com"
+                },
+                {
+                    "name": "Richard Forget",
+                    "email": "jrforget@live.ca",
+                    "website": "forgetward22.ca"
+                },
+                {
+                    "name": "Tim Gordanier",
+                    "email": "team@timfortoronto.com",
+                    "website": "timfortoronto.com"
+                },
+                {
+                    "name": "John Jeffery",
+                    "email": "ward13@john-jeffery.com",
+                    "website": "john-jeffery.com"
+                },
+                {
+                    "name": "Walied Khogali Ali",
+                    "email": "walied@votewalied.ca",
+                    "tel": "647-352-7779",
+                    "website": "votewalied.ca"
+                },
+                {
+                    "name": "Gladys Larbie",
+                    "email": "team@gladyslarbie.ca",
+                    "tel": "647-484-2929",
+                    "website": "gladyslarbie.ca"
+                },
+                {
+                    "name": "Barbara Lavoie",
+                    "email": "votebarbaralavoieward13@gmail.com",
+                    "website": "VoteBarbaraLavoieWard13.com"
+                },
+                {
+                    "name": "Ryan Lester",
+                    "email": "hello@ryanlester.ca",
+                    "tel": "647-725-9699",
+                    "website": "ryanlester.ca"
+                },
+                {
+
+                    "name": "Catherina Perez",
+                    "email": "voteforperez@hotmail.com",
+                    "tel": "647-467-7529",
+                    "website": "voteforperez.ca"
+                },
+                {
+                    "name": "George Smitherman",
+                    "email": "smithermantoronto@gmail.com",
+                    "tel": "416-807-6626",
+                    "website": "georgesmitherman.com"
+                },
+                {
+                    "name": "Jordan Stone",
+                    "email": "votejordanstone@gmail.com",
+                    "website": "votestone.ca"
+                },
+                {
+                    "name": "Lucy Troisi",
+                    "email": "Lucy@NeighbourhoodsFirst.ca",
+                    "tel": "647-344-2438",
+                    "website": "NeighbourhoodsFirst.ca"
+                },
+                {
+                    "name": "Megann Willson",
+                    "email": "info@megannwillson.ca",
+                    "tel": "647-797-9733",
+                    "website": "megannwillson.ca"
+                },
+                {
+                    "name": "Rob Wolvin",
+                    "email": "rob.wolvin@gmail.com",
+                    "website": "robwolvin.ca"
+                },
+                {
+                    "name": "Kristyn Wong-Tam",
+                    "email": "contact@kristynwongtam.ca",
+                    "tel": "647-951-9885",
+                    "website": "kristynwongtam.ca",
+                    "position": "Voted for safety training"
+                }
+            ]
+        },
+        {
+            "name": "Toronto-Danforth",
+            "ward_number": 14,
+            "candidates": [
+                {
+                    "name": "Lanrick Bennett",
+                    "email": "lanrick@lanrickbennettjr.ca",
+                    "website": "lanrickbennettjr.ca"
+                },
+                {
+                    "name": "Chris Budo",
+                    "email": "chrisbudotoronto@gmail.com",
+                    "tel": "416-660-6461",
+                    "website": "chrisbudotoronto.com"
+                },
+                {
+                    "name": "Dixon Chan",
+                    "email": "Dixon@Dixon2018.com",
+                    "website": "dixon2018.com"
+                },
+                {
+                    "name": "Marisol D'Andrea",
+                    "email": "votedandrea@gmail.com",
+                    "website": "marisoldandrea.com"
+                },
+                {
+                    "name": "Paula Fletcher",
+                    "email": "info@paulafletcher.com",
+                    "tel": "416-461-3100",
+                    "website": "paulafletcher.com",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Mary Fragedakis",
+                    "email": "teamfragedakis@gmail.com",
+                    "website": "maryfragedakis.ca",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Ryan Lindsay",
+                    "email": "abettertoronto@ryanlindsay.ca",
+                    "tel": "647-836-6455",
+                    "website": "RyanLindsay.ca"
+                },
+                {
+                    "name": "Lawrence Lychowyd",
+                    "email": "lawrencemlychowyd@gmail.com"
+                },
+                {
+                    "name": "Chris Marinakis",
+                    "email": "info@chrismarinakis.ca",
+                    "tel": "647-873-3006",
+                    "website": "chrismarinakis.ca"
+                },
+                {
+                    "name": "Alexander Pena",
+                    "email": "alexanderpena.1community@gmail.com",
+                    "tel": "647-229-1876"
+                }
+            ]
+        },
+        {
+            "name": "Don Valley West",
+            "ward_number": 15,
+            "candidates": [
+                {
+                    "name": "Jon Burnside",
+                    "email": "jon@jonburnside.com",
+                    "tel": "647-293-4449",
+                    "website": "jonburnside.com"
+                },
+                {
+                    "name": "Tanweer Khan",
+                    "email": "votefortanweerkhan@gmail.com",
+                    "tel": "647-766-8683 "
+                },
+                {
+                    "name": "Jaye Robinson",
+                    "email": "contact@jayerobinson2018.ca",
+                    "tel": "647-351-5293",
+                    "website": "jayerobinson2018.ca",
+                    "position": "Voted against safety training"
+                }
+            ]
+        },
+        {
+            "name": "Don Valley East",
+            "ward_number": 16,
+            "candidates": [
+                {
+                    "name": "Aria Alavi",
+                    "email": "ariaalavi85@gmail.com",
+                    "tel": "",
+                    "website": "ariaalavi.ca"
+                },
+                {
+                    "name": "David Caplan",
+                    "email": "votedavidcaplan@rogers.com",
+                    "tel": "647-490-5438",
+                    "website": "davidcaplan.ca"
+                },
+                {
+                    "name": "Stephen Ksiazek",
+                    "email": "stephen@ksiazekward32.ca",
+                    "tel": "416-820-6150",
+                    "website": "ksiazek.ca"
+                },
+                {
+                    "name": "Pushpalatha Mathanalingam",
+                    "email": "Electpushpa@gmail.com",
+                    "tel": "416-756-9694",
+                    "website": "pushpalatha.ca"
+                },
+                {
+                    "name": "Denzil Minnan-Wong ",
+                    "email": "support@votedenzil.com",
+                    "tel": "647-351-6630",
+                    "website": "VoteDenzil.com",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Dimitre Popov",
+                    "email": "ViaPopov@yahoo.com",
+                    "tel": "416-422-1704",
+                    "website": "DimitrePopov.ca"
+                },
+                {
+                    "name": "Michael Woulfe",
+                    "email": "info@woulfe.ca",
+                    "website": "woulfe.ca"
+                }
+            ]
+        },
+        {
+            "name": "Don Valley North",
+            "ward_number": 17,
+            "candidates": [
+                {
+                    "name": "Shelley Carroll",
+                    "email": "shelley@voteshelleycarroll.ca",
+                    "tel": "647-376-3990",
+                    "website": "voteshelleycarroll.ca",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Steven Chen",
+                    "email": "steven@stevenchen.net",
+                    "tel": "416-705-6789",
+                    "website": "stevenchen.net"
+                },
+                {
+                    "name": "Ian Hanecak",
+                    "email": "ian@ianhanecak.org",
+                    "tel": "647-821-6916",
+                    "website": "ianhanecak.org"
+                },
+                {
+                    "name": "Stella Kargiannakis",
+                    "email": "s.kargiannakis@gmail.com"
+                },
+                {
+                    "name": "Kostas Kokkinakis",
+                    "email": "vote@kostaskokkinakis.ca",
+                    "tel": "647-367-8987",
+                    "website": "kostaskokkinakis.ca"
+                },
+                {
+                    "name": "Ken Lister",
+                    "email": "ken@kenlister.ca",
+                    "tel": "416-493-2888",
+                    "website": "kenlister.ca"
+                },
+                {
+                    "name": "Christina Liu",
+                    "email": "info@voteliu.ca",
+                    "tel": "416-272-7999",
+                    "website": "voteliu.ca"
+                },
+                {
+                    "name": "Erin O'Connor",
+                    "email": "erin4ward30@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Willowdale",
+            "ward_number": 18,
+            "candidates": [
+                {
+                    "name": "Farah Aslani",
+                    "email": "farahaslani@yahoo.ca"
+                },
+                {
+                    "name": "Lily Cheng",
+                    "email": "lily@lilycheng.ca",
+                    "website": "lilycheng.ca"
+                },
+                {
+                    "name": "Sonny Cho",
+                    "email": "sonny@sonnycho.ca",
+                    "website": "sonnycho.ca"
+                },
+                {
+                    "name": "Danny De Santis",
+                    "email": "danny@electdesantis.ca",
+                    "tel": "647-562-9966",
+                    "website": "electdesantis.ca"
+                },
+                {
+                    "name": "David Epstein",
+                    "email": "info@voteforepstein.com",
+                    "tel": "416-879-6979",
+                    "website": "voteforepstein.com"
+                },
+                {
+                    "name": "John Filion",
+                    "email": "info@votejohnfilion.ca",
+                    "tel": "647-920-8683",
+                    "website": "votejohnfilion.ca",
+                    "position": "Voted for safety training"
+                },
+                {
+                    "name": "Norman Gardner",
+                    "email": "nrmgardner@rogers.com",
+                    "website": "normgardner4willowdale.com"
+                },
+                {
+                    "name": "Andrew Herbst",
+                    "email": "herbst.andrew0808@gmail.com",
+                    "tel": "416-223-3762",
+                    "website": "bettercallherbst.ca"
+                },
+                {
+                    "name": "Albert Kim",
+                    "email": "albert@votealbertkim.com",
+                    "website": "votealbertkim.com"
+                },
+                {
+                    "name": "Gerald Mak",
+                    "email": "info@geraldmak.ca",
+                    "website": "geraldmak.ca"
+                },
+                {
+                    "name": "Sam Mathi",
+                    "email": "electSamMathi@gmail.com"
+                },
+                {
+                    "name": "Sam Moini",
+                    "email": "info@sammoini.ca",
+                    "website": "sammoini.ca"
+                },
+                {
+                    "name": "David Mousavi",
+                    "email": "info@votedavid2018.ca",
+                    "tel": "416-729-0824",
+                    "website": "votedavid2018.ca"
+                },
+                {
+                    "name": "Chung Jin Park",
+                    "email": "takbipark28@gmail.com",
+                    "tel": "416-575-8882 "
+                },
+                {
+                    "name": "Winston Park",
+                    "email": "electwinstonpark@gmail.com",
+                    "website": "electwinstonpark.wixsite.com/winston"
+                },
+                {
+                    "name": "Hamid Shakeri",
+                    "email": "scopes.master@gmail.com",
+                    "tel": "416-508-4165",
+                    "website": "hamidshakeri.ca"
+                },
+                {
+                    "name": "Saman Tabasi Nejad",
+                    "email": "saman@tabasinejad.ca",
+                    "tel": "647-872-1988",
+                    "website": "tabasinejad.ca"
+                }
+            ]
+        },
+        {
+            "name": "Beaches-East York",
+            "ward_number": 19,
+            "candidates": [
+                {
+                    "name": "Brad Bradford",
+                    "email": "brad@bradbradford.ca",
+                    "website": "bradbradford.ca"
+                },
+                {
+                    "name": "Paul Bura",
+                    "email": "bura.ward37@paulbura.ca",
+                    "website": "paulbura.ca"
+                },
+                {
+                    "name": "David Del Grande",
+                    "email": "ddgfor35@gmail.com",
+                    "tel": "416-524-8578",
+                    "website": "DavidDelGrande.ca"
+                },
+                {
+                    "name": "Diane Dyson",
+                    "email": "diane@belonging.community",
+                    "website": "dianedyson.ca"
+                },
+                {
+                    "name": "Matthew Kellway",
+                    "email": "matthew@matthewkellway.ca",
+                    "website": "matthewkellway.ca"
+                },
+                {
+                    "name": "Donald Lamoreux",
+                    "email": "donlamoreux@rogers.com"
+                },
+                {
+                    "name": "Brenda MacDonald",
+                    "email": "brendamacdonald2010@gmail.com",
+                    "tel": "647-336-9835",
+                    "website": "brendamacdonaldward19.com"
+                },
+                {
+                    "name": "Joshua Makuch",
+                    "email": "josh@votejosh.ca",
+                    "tel": "647-812-2871",
+                    "website": "votejosh.ca"
+                },
+                {
+                    "name": "Valérie Maltais",
+                    "email": "valerie@vmaltais.com",
+                    "website": "vmaltais.com"
+                },
+                {
+                    "name": "Frank Marra",
+                    "email": "marra_f@hotmail.com",
+                    "tel": "416-429-0116"
+                },
+                {
+                    "name": "Paul Murton",
+                    "email": "pmm@paulmurton.com",
+                    "tel": "416-299-0767 Ext 950",
+                    "website": "toronto.paulmurton.com"
+                },
+                {
+                    "name": "Morley Rosenberg",
+                    "email": "info@morleyrosenberg.com",
+                    "website": "morleyrosenberg.com"
+                },
+                {
+                    "name": "Adam Smith",
+                    "email": "adam@adamsmith.to",
+                    "tel": "437-226-2326",
+                    "website": "adamsmith.to"
+                },
+                {
+                    "name": "Veronica Stephen",
+                    "email": "info@voteveronica.ca",
+                    "website": "voteveronica.ca"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough Southwest",
+            "ward_number": 20,
+            "candidates": [
+                {
+                    "name": "Gerard Arbour",
+                    "email": "DrGTAward20ssw@gmail.com",
+                    "tel": "416-261-2890",
+                    "website": "facebook.com/DrGTAward20SSW"
+                },
+                {
+                    "name": "Mohsin Bhuiyan",
+                    "email": "mohsin.bhuiyan.2018@gmail.com",
+                    "tel": "416-821-4724",
+                    "website": "mohsinbhuiyan.com"
+                },
+                {
+                    "name": "Paulina Corpuz",
+                    "email": "pcorpuz@live.ca",
+                    "tel": "647-933-5660",
+                    "website": "paulinacorpuz.com"
+                },
+                {
+                    "name": "Gary Crawford",
+                    "email": "info@reelectgarycrawford.com",
+                    "tel": "416-261-8683",
+                    "website": "reelectgarycrawford.com",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "Michelle Holland-Berardinetti",
+                    "website": "electmichelle.ca",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "John Letonja",
+                    "email": "john.letonja@yahoo.ca",
+                    "tel": "647-785-5055",
+                    "website": "johnletonja.com"
+                },
+                {
+                    "name": "Robert McDermott",
+                    "email": "thefreescarboroughcampaign@hotmail.com",
+                    "tel": "416-267-9117"
+                },
+                {
+                    "name": "Suman Roy",
+                    "email": "suman@sumanroy.ca",
+                    "tel": "647-701-6973",
+                    "website": "sumanroy.ca"
+                },
+                {
+                    "name": "Curtis Smith",
+                    "email": "curtissmith.candidate@gmail.com",
+                    "tel": "437-224-2596",
+                    "website": "curtissmith.vote"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough Centre",
+            "ward_number": 21,
+            "candidates": [
+                {
+                    "name": "Vivek Bhatt",
+                    "email": "vivek@votevivek.ca",
+                    "tel": "416-458-5842",
+                    "website": "votevivek.ca"
+                },
+                {
+                    "name": "Fawzi Bidawi",
+                    "email": "elect@fawzibidawi.com",
+                    "tel": "416-826-9754",
+                    "website": "fawzibidawi.com"
+                },
+                {
+                    "name": "Randy Bucao",
+                    "email": "randy.bucao@bell.net",
+                    "tel": "647-478-7710",
+                    "website": "voterandybucao.ca"
+                },
+                {
+                    "name": "Zia Choudhary",
+                    "email": "zia_realtor@hotmail.com",
+                    "tel": "647-678-6032",
+                    "website": "ziachoudhary.ca"
+                },
+                {
+                    "name": "Nur Saifullah",
+                    "email": "votenur@gmail.com",
+                    "tel": "416-266-6820",
+                    "website": "votenur.com"
+                },
+                {
+                    "name": "Michael Thompson",
+                    "email": "votethompson_2018@rogers.com",
+                    "tel": "647-806-6434",
+                    "website": "votethompson2018.ca",
+                    "position": "Voted against safety training"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough-Agincourt",
+            "ward_number": 22,
+            "candidates": [
+                {
+                    "name": "Jude Coutinho",
+                    "email": "j_cotinho@hotmail.com",
+                    "website": "judecoutinho.weebly.com"
+                },
+                {
+                    "name": "Jim Karygiannis",
+                    "email": "jim@jimkarygiannis.net",
+                    "tel": "416-499-4588",
+                    "website": "jimkarygiannis.net",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "Norm Kelly",
+                    "email": "normkelly2018@gmail.com",
+                    "tel": "647-352-3883",
+                    "website": "normkelly.ca",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "Michael Korzeniewski",
+                    "email": "votemichael22@gmail.com",
+                    "website": "votemichael22.ca"
+                },
+                {
+                    "name": "Roland Lin",
+                    "email": "info@RolandLin.ca",
+                    "tel": "647-352-3660",
+                    "website": "rolandlin.ca"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough North",
+            "ward_number": 23,
+            "candidates": [
+                {
+                    "name": "Ashwani Bhardwaj",
+                    "email": "",
+                    "tel": "416-505-2670",
+                    "website": "voteashwani.ca"
+                },
+                {
+                    "name": "Maggie Chi",
+                    "email": "info@maggiechi.ca",
+                    "tel": "647-562-1817",
+                    "website": "maggiechi.ca"
+                },
+                {
+                    "name": "James Chow",
+                    "email": "jameschow.ca@gmail.com",
+                    "tel": "",
+                    "website": "jameschow.ca"
+                },
+                {
+                    "name": "Dameon Halstead",
+                    "email": "info@dameonhalstead.ca",
+                    "tel": "416-871-4772 ",
+                    "website": ""
+                },
+                {
+                    "name": "Anthony Internicola",
+                    "email": "ward23@toronto4life.ca",
+                    "tel": "641-336-7753",
+                    "website": "Toronto4Life.ca"
+                },
+                {
+                    "name": "Sheraz Khan",
+                    "email": "voteforsherazkhan@gmail.com",
+                    "tel": "",
+                    "website": "sherazkhan.org"
+                },
+                {
+                    "name": "Cynthia Lai",
+                    "email": "cynthialai416@gmail.com",
+                    "tel": "416-939-8833",
+                    "website": "CynthiaLai.ca"
+                },
+                {
+                    "name": "Mahboob Mian",
+                    "email": "mahboobmian@hotmail.com",
+                    "tel": "647-939-6426",
+                    "website": ""
+                },
+                {
+                    "name": "Felicia Samuel",
+                    "email": "info@feliciasamuel.ca",
+                    "tel": "416-321-0055",
+                    "website": "feliciasamuel.ca"
+                },
+                {
+                    "name": "Sandeep Srivastava",
+                    "email": "VoteForSandeepSrivastava@Outlook.Com",
+                    "tel": "416-894-0503",
+                    "website": "SandeepSrivastava.Com"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough-Guildwood",
+            "ward_number": 24,
+            "candidates": [
+                {
+                    "name": "Paul Ainslie",
+                    "email": "vote@voteainslie.ca",
+                    "tel": "416-402-1613",
+                    "website": "voteainslie.ca",
+                    "position": "Voted against safety training"
+                },
+                {
+                    "name": "Itohan Evbagharu",
+                    "email": "patienceforward43@gmail.com"
+                },
+                {
+                    "name": "Reddy Muttukuru",
+                    "email": "reddyward24@gmail.com",
+                    "tel": "416-357-6958",
+                    "website": "reddyforward24.com"
+                },
+                {
+                    "name": "Priyanth Nallaratnam",
+                    "email": "email@priyanth.com",
+                    "tel": "647-352-4646",
+                    "website": "priyanth.com"
+                },
+                {
+                    "name": "Keiosha Ross",
+                    "email": "Keioshaross4@gmail.com"
+                },
+                {
+                    "name": "Michelle Spencer",
+                    "email": "mspencerbahons@gmail.com",
+                    "website": "michellespencer2018.com"
+                },
+                {
+                    "name": "Emery Warner",
+                    "email": "emery.warner@gmail.com",
+                    "tel": "604-704-1181",
+                    "website": "instagram.com/vote4emery"
+                },
+                {
+                    "name": "Morlan Washington",
+                    "email": "morlanwashington@gmail.com",
+                    "tel": "1-800-686-9170"
+                }
+            ]
+        },
+        {
+            "name": "Scarborough-Guildwood",
+            "ward_number": 25,
+            "candidates": [
+                {
+                    "name": "Amanda Cain",
+                    "email": "amanda@amandacain.ca",
+                    "tel": "416-608-8379",
+                    "website": "amandacain.ca"
+                },
+                {
+                    "name": "Paul Cookson",
+                    "email": "paul@paulcookson.ca",
+                    "tel": "",
+                    "website": "paulcookson.ca"
+                },
+                {
+                    "name": "Daniel Cubellis",
+                    "email": "daniel@votecubellis.ca",
+                    "tel": "(647) 499-2902",
+                    "website": "votecubellis.ca"
+                },
+                {
+                    "name": "Jasper Ghori",
+                    "email": "jghori@gmail.com",
+                    "tel": "",
+                    "website": "voteghori.ca"
+                },
+                {
+                    "name": "Reza Khoshdel",
+                    "email": "reza@rezaforward47.com",
+                    "tel": "647-625-6284",
+                    "website": "RezaForWard47.com"
+                },
+                {
+                    "name": "Cheryl Lewis-Thurab",
+                    "email": "hello@cheryllewisthurab.ca",
+                    "tel": "647-956-7293",
+                    "website": "cheryllewisthurab.ca"
+                },
+                {
+                    "name": "Jennifer McKelvie",
+                    "email": "jennifer@votemckelvie.ca",
+                    "tel": "416-931-0960",
+                    "website": "votemckelvie.ca"
+                },
+                {
+                    "name": "Christopher Riley",
+                    "email": "photochris@gmail.com",
+                    "tel": "416-274-9646",
+                    "website": ""
+                },
+                {
+                    "name": "Neethan Shan",
+                    "email": "info@neethanshan.ca",
+                    "tel": "647-572-7426",
+                    "website": "neethanshan.ca"
+                },
+                {
+                    "name": "Joseph Thomas",
+                    "email": "tom_tinu@yahoo.com",
+                    "tel": "647-534-2947",
+                    "website": ""
                 }
             ]
         }
