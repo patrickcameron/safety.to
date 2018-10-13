@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.getJSON('candidates.json', function(results) {
-        
+
         // Populate quick links menu
         $.each(results.data, function(key, data) {
             $('.js--dropdown-menu').append('<a class="dropdown-item" href="#' + data.name + '">' + ( data.ward_number ? 'Ward ' + data.ward_number + ' ' : '' ) + data.name + '</a>');

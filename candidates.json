@@ -5,6 +5,17 @@
             "ward_number": null,
             "candidates": [
                 {
+                    "name": "Sarah Climenhaga",
+                    "email": "sarah@sarahformayor.to",
+                    "website": "sarahformayor.to"
+                },
+                {
+                    "name": "Saron Gebresellassi",
+                    "email": "info@saronformayor.ca",
+                    "tel": "647-739-5291",
+                    "website": "SaronForMayor.ca"
+                },
+                {
                     "name": "Jennifer Keesmaat",
                     "email": "info@jenniferkeesmaat.com",
                     "tel": "416-848-2037",
@@ -1210,7 +1221,7 @@
             ]
         },
         {
-            "name": "Scarborough-Guildwood",
+            "name": "Scarborough-Rouge Park",
             "ward_number": 25,
             "candidates": [
                 {

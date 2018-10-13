@@ -13,3 +13,22 @@ a[href^='tel:'] {
 .table th, .table td {
     text-align: left;
 }
+
+.quick-links {
+    height: 48px;
+}
+
+/* Force dropdown menu to always open downwards */
+.dropdown-menu {
+    transform: translate3d(5px, 35px, 0px)!important;
+    max-height: 85vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.external-link-svg {
+    position: relative;
+    bottom: 3px;
+    margin-left: 7px;
+    width: 17px;
+}
