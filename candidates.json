@@ -307,9 +307,7 @@
                     "name": "Mike Colle",
                     "email": "mikecolle2018@gmail.com",
                     "tel": "647-560-8977",
-                    "website": "mikecolletoronto.com",
-                    "position": "Voted against safety training"
-                },
+                    "website": "mikecolletoronto.com"                },
                 {
                     "name": "Lauralyn Johnston",
                     "email": "lauralyn4councillor@gmail.com",
@@ -675,7 +673,8 @@
                     "name": "Jon Burnside",
                     "email": "jon@jonburnside.com",
                     "tel": "647-293-4449",
-                    "website": "jonburnside.com"
+                    "website": "jonburnside.com",
+                    "position": "Voted against safety training"
                 },
                 {
                     "name": "Tanweer Khan",
