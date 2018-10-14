@@ -113,7 +113,8 @@
                     "name": "Michael Loomans",
                     "email": "mtloomans@gmail.com",
                     "tel": "437-836-3051",
-                    "website": "voteloomans2018.com"
+                    "website": "voteloomans2018.com",
+                    "hide": true
                 },
                 {
                     "name": "Amber Morley",
@@ -212,7 +213,8 @@
                 {
                     "name": "Harpreet Gulri",
                     "email": "harpreetgulricampaign@yahoo.com",
-                    "tel": "416-254-5190"
+                    "tel": "416-254-5190",
+                    "hide": true
                 },
                 {
                     "name": "Frances Nunziata",
@@ -224,6 +226,7 @@
                 {
                     "name": "Lekan Olawoye",
                     "email": "Lekan@lekan.ca",
+                    "tel": "647-496-6126",
                     "website": "Lekan.ca"
                 },
                 {
@@ -307,7 +310,8 @@
                     "name": "Mike Colle",
                     "email": "mikecolle2018@gmail.com",
                     "tel": "647-560-8977",
-                    "website": "mikecolletoronto.com"                },
+                    "website": "mikecolletoronto.com"
+                },
                 {
                     "name": "Lauralyn Johnston",
                     "email": "lauralyn4councillor@gmail.com",
@@ -479,7 +483,8 @@
                 {
                     "name": "Artur Langu",
                     "email": "arturlangu12@gmail.com",
-                    "website": "langu.ca"
+                    "website": "langu.ca",
+                    "hide": true
                 },
                 {
                     "name": "Ian Lipton",
@@ -1075,7 +1080,8 @@
                 {
                     "name": "Jude Coutinho",
                     "email": "j_cotinho@hotmail.com",
-                    "website": "judecoutinho.weebly.com"
+                    "website": "judecoutinho.weebly.com",
+                    "hide": true
                 },
                 {
                     "name": "Jim Karygiannis",
