@@ -14,6 +14,17 @@ a[href^='tel:'] {
     text-align: left;
 }
 
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+	border: 1px solid #ddd;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
 .force-webkit-scrollbar::-webkit-scrollbar {
     -webkit-appearance: none;
 }
@@ -32,7 +43,7 @@ a[href^='tel:'] {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.force-webkit-scrollbar::-webkit-scrollbar-track { 
+.force-webkit-scrollbar::-webkit-scrollbar-track {
     background-color: #fff;
     border-radius: 8px;
 }

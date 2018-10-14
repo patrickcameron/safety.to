@@ -12,35 +12,38 @@ $(document).ready(function() {
 
             for (var candidate of data.candidates) {
 
-                // Name
-                candidateTable += '<tr><th scope="row">' + candidate.name + '</th>';
+                if (candidate.hide !== true ) {
 
-                // Email
-                if (candidate.email) {
-                    candidateTable += '<td><a href="mailto:' + candidate.email + '">' + candidate.email + '</a>';
-                } else {
-                    candidateTable += '<td>&nbsp</td>';
-                }
+                    // Name
+                    candidateTable += '<tr><th scope="row">' + candidate.name + '</th>';
 
-                // Phone
-                if (candidate.tel) {
-                    candidateTable += '<td><a href="tel:' + candidate.tel + '">' + candidate.tel + '</a></td>';
-                } else {
-                    candidateTable += '<td>&nbsp</td>';
-                }
+                    // Email
+                    if (candidate.email) {
+                        candidateTable += '<td><a href="mailto:' + candidate.email + '">' + candidate.email + '</a>';
+                    } else {
+                        candidateTable += '<td>&nbsp</td>';
+                    }
 
-                // Website
-                if (candidate.website) {
-                    candidateTable += '<td><a target="_blank" rel="noopener nofollower" href="http://' + candidate.website + '">' + candidate.website + '</a></td>';
-                } else {
-                    candidateTable += '<td>&nbsp</td>';
-                }
+                    // Phone
+                    if (candidate.tel) {
+                        candidateTable += '<td><a href="tel:' + candidate.tel + '">' + candidate.tel + '</a></td>';
+                    } else {
+                        candidateTable += '<td>&nbsp</td>';
+                    }
 
-                // Position
-                if (candidate.position) {
-                    candidateTable += '<td>' + candidate.position + '</td>';
-                } else {
-                    candidateTable += '<td>&nbsp</td>';
+                    // Website
+                    if (candidate.website) {
+                        candidateTable += '<td><a target="_blank" rel="noopener nofollower" href="http://' + candidate.website + '">' + candidate.website + '</a></td>';
+                    } else {
+                        candidateTable += '<td>&nbsp</td>';
+                    }
+
+                    // Position
+                    if (candidate.position) {
+                        candidateTable += '<td>' + candidate.position + '</td>';
+                    } else {
+                        candidateTable += '<td>&nbsp</td>';
+                    }
                 }
             }
 
