@@ -47,7 +47,7 @@ $(document).ready(function() {
             $('.js--candidate-tables').append(
                 '<div class="row pb-5" id="' + data.name + '">' +
                 '<div class="col-12 text-center"><p class="lead">' + (data.ward_number ? '<strong>Ward ' + data.ward_number + '</strong> ' : '') + data.name + '</p>' +
-                '<div class="table-responsive"><table class="table"><thead><tr><th scope="col">Name</th><th scope="col">Email</th><th scope="col">Phone</th><th scope="col">Website</th><th scope="col">Position</th></tr></thead><tbody>' + candidateTable
+                '<div class="table-responsive force-webkit-scrollbar"><table class="table"><thead><tr><th scope="col">Name</th><th scope="col">Email</th><th scope="col">Phone</th><th scope="col">Website</th><th scope="col">Position</th></tr></thead><tbody>' + candidateTable
             )
         });
     });
