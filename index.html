@@ -54,13 +54,13 @@
             </div>
         </header>
 
-        <main class="container" id="main">
+        <main class="container js--vue-app" id="main">
 
             <!-- Quick Links -->
             <div class="dropdown quick-navigation">
                 <a class="btn btn-warning btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quick Nav</a>
 
-                <div id="js--dropdown-menu" class="dropdown-menu force-webkit-scrollbar" aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-menu force-webkit-scrollbar" aria-labelledby="dropdownMenuLink">
                     <a
                         v-for="ward in wardData"
                         class="dropdown-item"
@@ -69,80 +69,76 @@
             </div>
 
             <!-- Ward tables -->
-            <div id="js--candidate-tables">
+            <div
+                v-for="ward in wardData"
+                :id="ward.name.replace(/\s/g, '')"
+                class="row pb-5">
 
-                <div
-                    v-for="ward in wardData"
-                    :id="ward.name.replace(/\s/g, '')"
-                    class="row pb-5">
+                <div class="col-12 text-center">
 
-                    <div class="col-12 text-center">
+                    <!-- Ward name -->
+                    <p class="lead">
+                        <span v-if="ward.ward_number">
+                            <strong>
+                                Ward {{ ward.ward_number }}
+                            </strong>
+                        </span>
+                        {{ ward.name }}
+                    </p>
 
-                        <!-- Ward name -->
-                        <p class="lead">
-                            <span v-if="ward.ward_number">
-                                <strong>
-                                    Ward {{ ward.ward_number }}
-                                </strong>
-                            </span>
-                            {{ ward.name }}
-                        </p>
+                    <div class="table-responsive force-webkit-scrollbar">
 
-                        <div class="table-responsive force-webkit-scrollbar">
+                        <table class="table">
 
-                            <table class="table">
+                            <!-- Table header -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Website</th>
+                                    <th scope="col">Position</th>
+                                </tr>
+                            </thead>
 
-                                <!-- Table header -->
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Email</th>
-                                        <th scope="col">Phone</th>
-                                        <th scope="col">Website</th>
-                                        <th scope="col">Position</th>
-                                    </tr>
-                                </thead>
+                            <!-- Candidate info -->
+                            <tbody>
+                                <tr v-for="candidate in ward.candidates" v-if="!candidate.hide">
+                                    <th>{{ candidate.name }}</th>
+                                    <td>
+                                        <a
+                                            v-if="candidate.email"
+                                            :href="'mailto:' + candidate.email">
+                                            {{ candidate.email }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a
+                                            v-if="candidate.tel"
+                                            :href="'tel:' + candidate.tel">
+                                            {{ candidate.tel }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a
+                                            v-if="candidate.website"
+                                            :href="'http://' + candidate.website"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            >
+                                            {{ candidate.website }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <span
+                                            v-if="candidate.position"
+                                            v-html="candidate.position">
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
 
-                                <!-- Candidate info -->
-                                <tbody>
-                                    <tr v-for="candidate in ward.candidates" v-if="!candidate.hide">
-                                        <th>{{ candidate.name }}</th>
-                                        <td>
-                                            <a
-                                                v-if="candidate.email"
-                                                :href="'mailto:' + candidate.email">
-                                                {{ candidate.email }}
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a
-                                                v-if="candidate.tel"
-                                                :href="'tel:' + candidate.tel">
-                                                {{ candidate.tel }}
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a
-                                                v-if="candidate.website"
-                                                :href="'http://' + candidate.website"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                >
-                                                {{ candidate.website }}
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <span
-                                                v-if="candidate.position"
-                                                v-html="candidate.position">
-                                            </span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-
-                            </table>
-
-                        </div>
+                        </table>
 
                     </div>
 
