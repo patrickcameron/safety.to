@@ -58,7 +58,7 @@
                     "email": "jf.campbell@bell.net",
                     "tel": "416-526-1722",
                     "website": "johnfcampbell.ca",
-                    "position": "Voted against safety training"
+                    "position": "Voted against safety training but \"receptive to a renewed look at the training and requirements\""
                 },
                 {
                     "name": "Angelo Carnevale",
@@ -409,7 +409,8 @@
                     "name": "Rick Myers",
                     "email": "rick@rickmyers.ca",
                     "tel": "416-707-9523",
-                    "website": "rickmyers.ca"
+                    "website": "rickmyers.ca",
+                    "position": "Supports safety training"
                 },
                 {
                     "name": "Karlene Nation",
@@ -419,7 +420,8 @@
                 {
                     "name": "John Nguyen",
                     "email": "john@nguyenjohn.ca",
-                    "website": "nguyenjohn.ca"
+                    "website": "nguyenjohn.ca",
+                    "position": "Supports rideshare safety"
                 },
                 {
                     "name": "Kevin Vuong",
@@ -442,7 +444,8 @@
                     "name": "Sabrina Zuniga",
                     "email": "sabrina@sabrinazuniga.ca",
                     "tel": "647-812-2452",
-                    "website": "sabrinazuniga.ca"
+                    "website": "sabrinazuniga.ca",
+                    "position": "Supports rideshare safety"
                 }
             ]
         },
