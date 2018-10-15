@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,11 +13,11 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bring back taxi and rideshare safety training in Toronto</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZW7MDJ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -55,13 +55,101 @@
         </header>
 
         <main class="container" id="main">
+
             <!-- Quick Links -->
             <div class="dropdown quick-navigation">
-                <a class="quick-navigation btn btn-warning btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quick Nav</a>
-                <div class="js--dropdown-menu dropdown-menu force-webkit-scrollbar" aria-labelledby="dropdownMenuLink"></div>
+                <a class="btn btn-warning btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quick Nav</a>
+
+                <div id="js--dropdown-menu" class="dropdown-menu force-webkit-scrollbar" aria-labelledby="dropdownMenuLink">
+                    <a
+                        v-for="ward in wardData"
+                        class="dropdown-item"
+                        :href="'#' + ward.name.replace(/\s/g, '')">{{ ward.ward_number ? 'Ward ' + ward.ward_number : '' }} {{ ward.name }}</a>
+                </div>
             </div>
 
-            <div class="js--candidate-tables"></div>
+            <!-- Ward tables -->
+            <div id="js--candidate-tables">
+
+                <div
+                    v-for="ward in wardData"
+                    :id="ward.name.replace(/\s/g, '')"
+                    class="row pb-5">
+
+                    <div class="col-12 text-center">
+
+                        <!-- Ward name -->
+                        <p class="lead">
+                            <span v-if="ward.ward_number">
+                                <strong>
+                                    Ward {{ ward.ward_number }}
+                                </strong>
+                            </span>
+                            {{ ward.name }}
+                        </p>
+
+                        <div class="table-responsive force-webkit-scrollbar">
+
+                            <table class="table">
+
+                                <!-- Table header -->
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Phone</th>
+                                        <th scope="col">Website</th>
+                                        <th scope="col">Position</th>
+                                    </tr>
+                                </thead>
+
+                                <!-- Candidate info -->
+                                <tbody>
+                                    <tr v-for="candidate in ward.candidates" v-if="!candidate.hide">
+                                        <th>{{ candidate.name }}</th>
+                                        <td>
+                                            <a
+                                                v-if="candidate.email"
+                                                :href="'mailto:' + candidate.email">
+                                                {{ candidate.email }}
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a
+                                                v-if="candidate.tel"
+                                                :href="'tel:' + candidate.tel">
+                                                {{ candidate.tel }}
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a
+                                                v-if="candidate.website"
+                                                :href="'http://' + candidate.website"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                >
+                                                {{ candidate.website }}
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <span
+                                                v-if="candidate.position">
+                                                {{ candidate.position }}
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </main>
 
         <footer class="card mb-3">
@@ -74,11 +162,16 @@
 
     </div>
 
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper (for dropdown menu) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="scripts.js">
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- Site scripts -->
+    <script type="text/javascript" src="scripts.js"></script>
 
-    </script>
     </body>
 </html>

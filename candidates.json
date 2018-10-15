@@ -427,7 +427,8 @@
                     "name": "Kevin Vuong",
                     "email": "info@kevinvuong.com",
                     "tel": "416-824-2050",
-                    "website": "kevinvuong.ca"
+                    "website": "kevinvuong.ca",
+                    "position": "Supports rideshare safety"
                 },
                 {
                     "name": "Edris Zalmai",
@@ -445,7 +446,7 @@
                     "email": "sabrina@sabrinazuniga.ca",
                     "tel": "647-812-2452",
                     "website": "sabrinazuniga.ca",
-                    "position": "Supports rideshare safety"
+                    "position": "Supports rideshare safety. Signed the petition."
                 }
             ]
         },
