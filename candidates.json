@@ -428,7 +428,7 @@
                     "email": "info@kevinvuong.com",
                     "tel": "416-824-2050",
                     "website": "kevinvuong.ca",
-                    "position": "Supports rideshare safety"
+                    "position": "Supports rideshare safety and has signed the petition"
                 },
                 {
                     "name": "Edris Zalmai",
@@ -446,7 +446,7 @@
                     "email": "sabrina@sabrinazuniga.ca",
                     "tel": "647-812-2452",
                     "website": "sabrinazuniga.ca",
-                    "position": "Supports rideshare safety. Signed the petition."
+                    "position": "Supports rideshare safety and has signed the petition"
                 }
             ]
         },
@@ -457,7 +457,8 @@
                 {
                     "name": "Marc Cormier",
                     "email": "marcalbertcormier@gmail.com",
-                    "website": "marcalbertcormier.ca"
+                    "website": "marcalbertcormier.ca",
+                    "position": "Supports safety training"
                 },
                 {
                     "name": "Mike Layton",
@@ -470,13 +471,15 @@
                     "name": "Joyce Rowlands",
                     "email": "joyce4ward11@gmail.com",
                     "tel": "647-227-3045",
-                    "website": "joycerowlands.ca"
+                    "website": "joycerowlands.ca",
+                    "position": "<a href='https://joycerowlands.ca/on-the-issues/' target='_blank' rel='noopener nofollow'>Supports safety training</a>"
                 },
                 {
                     "name": "Nicki Ward",
                     "email": "admin@nickiward.ca",
                     "tel": "(647) 725-3025",
-                    "website": "NickiWard.ca"
+                    "website": "NickiWard.ca",
+                    "position": "Supports safety training"
                 }
             ]
         },
