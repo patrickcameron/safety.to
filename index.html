@@ -13,7 +13,11 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bring back taxi and rideshare safety training in Toronto</title>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+    <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -72,8 +76,9 @@
 
             <!-- Ward tables -->
             <div
-                v-for="ward in wardData"
+                v-for="(ward, index) in wardData"
                 :id="ward.name.replace(/\s/g, '')"
+                :key="index"
                 class="row pb-5">
 
                 <div class="col-12 text-center">
@@ -160,8 +165,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- Vue.js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     <!-- Site scripts -->
     <script type="text/javascript" src="scripts.js"></script>
 
